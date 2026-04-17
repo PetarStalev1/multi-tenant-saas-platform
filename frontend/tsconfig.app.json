@@ -20,7 +20,12 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+    "allowSyntheticDefaultImports": true,
+    "paths" : {
+      "@common/*" : ["../common/*"]
+    },
+    "types":["node"]
   },
-  "include": ["src"]
+  "include": ["src","tests","../common"]
 }

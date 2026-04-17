@@ -1,7 +1,7 @@
-export type CurrentUser = {
+import { TenantUser } from "./TenantUser"
+
+
+export type CurrentUser = TenantUser & {
     accessToken: string,
-    email: string,
-    name: string, 
     tenantId?: string
 }
-

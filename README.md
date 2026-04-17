@@ -1,0 +1,1 @@
+### state & client site routing is managed by a library called: Tan-Stack Query
